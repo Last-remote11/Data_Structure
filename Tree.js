@@ -72,8 +72,8 @@ class NewTreeNode {
     }
   
     remove(value) {
-      // 삭제할 값을 찾을때까지 전진
-      // 삭제할 값을 찾은 후 삭제할 값의 right로 한번 가고 그다음 계속 left를 찾은 뒤 left가 없으면
+      // 삭제할 노드를 찾을때까지 전진
+      // 삭제할 노드를 찾은 후 그 삭제할 노드의 right로 한번 가고 그다음 계속 left를 찾은 뒤 left가 없으면
       // 마지막 left를 삭제하려는 값과 대체
       if (!this.root) {
         return null
